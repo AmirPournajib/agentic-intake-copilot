@@ -1,0 +1,17 @@
+[
+  {
+    "id": "demo-hearing",
+    "form": {"name": "Jordan Lee", "reason": "Hearing aid fitting", "consent": true},
+    "message": "Hi, my hearing has been muffled for 3 weeks and there is ringing in my ears. DOB 1958-04-12, call me at 604-555-0142."
+  },
+  {
+    "id": "demo-urgent",
+    "form": {"name": "Sam Patel", "dob": "1979-09-30", "phone": "7785550199", "reason": "Follow up", "consent": true},
+    "message": "Since this morning I have chest tightness and I'm out of breath walking upstairs."
+  },
+  {
+    "id": "demo-incomplete",
+    "form": {"name": "Riley Chen", "reason": "", "consent": false},
+    "message": "need to see someone"
+  }
+]

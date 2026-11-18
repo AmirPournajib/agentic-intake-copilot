@@ -1,0 +1,27 @@
+{
+  "_note": "Small illustrative knowledge base. Not medical guidance.",
+  "symptoms": {
+    "chest pain": {"red_flag": true, "aliases": ["chest tightness", "pressure in my chest"]},
+    "shortness of breath": {"red_flag": true, "aliases": ["can't breathe", "cannot breathe", "trouble breathing", "out of breath"]},
+    "heavy bleeding": {"red_flag": true, "aliases": ["bleeding a lot", "soaking a pad"]},
+    "fainting": {"red_flag": true, "aliases": ["fainted", "passed out", "blacked out"]},
+    "sudden vision loss": {"red_flag": true, "aliases": ["lost vision", "can't see"]},
+    "headache": {"red_flag": false, "aliases": ["migraine", "head hurts"]},
+    "fever": {"red_flag": false, "aliases": ["temperature", "feverish"]},
+    "cough": {"red_flag": false, "aliases": ["coughing"]},
+    "back pain": {"red_flag": false, "aliases": ["lower back", "back hurts"]},
+    "rash": {"red_flag": false, "aliases": ["itchy skin", "hives"]},
+    "hearing loss": {"red_flag": false, "aliases": ["can't hear", "hard of hearing", "muffled hearing"]},
+    "ear pain": {"red_flag": false, "aliases": ["earache", "ear hurts"]},
+    "tinnitus": {"red_flag": false, "aliases": ["ringing in my ear", "ringing in my ears"]},
+    "irregular cycle": {"red_flag": false, "aliases": ["irregular period", "missed period", "late period"]},
+    "fatigue": {"red_flag": false, "aliases": ["tired all the time", "exhausted", "no energy"]}
+  },
+  "routing": {
+    "audiology": ["hearing", "ear", "tinnitus", "hearing aid"],
+    "fertility": ["fertility", "cycle", "period", "ovulation", "ivf", "conceive"],
+    "dermatology": ["rash", "skin", "mole", "acne"],
+    "physiotherapy": ["back pain", "sprain", "knee", "shoulder", "physio"],
+    "general": ["checkup", "fever", "cough", "headache", "fatigue", "prescription"]
+  }
+}
